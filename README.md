@@ -1,16 +1,145 @@
-# React + Vite
+# elevaDev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**elevaDev** es una landing page corporativa desarrollada para promocionar servicios de desarrollo web dirigidos a pequeños negocios, emprendedores y marcas que desean mejorar su presencia digital, ordenar sus productos y recibir más consultas a través de canales como WhatsApp.
 
-Currently, two official plugins are available:
+El proyecto está enfocado en presentar servicios de manera clara, profesional y orientada a conversión, utilizando una interfaz moderna, responsive y optimizada para captar el interés de posibles clientes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción
 
-## React Compiler
+Esta web funciona como página principal de presentación para elevaDev, una propuesta de servicios digitales centrada en soluciones web accesibles para negocios pequeños.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La landing incluye secciones estratégicas como servicios, beneficios, paquetes, proceso de trabajo, demostración visual de catálogo y llamadas a la acción para contactar por WhatsApp.
 
-## Expanding the ESLint configuration
+## Características principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Diseño corporativo, moderno y minimalista.
+* Interfaz responsive adaptada a dispositivos móviles.
+* Navbar fijo con navegación suave entre secciones.
+* CTAs funcionales orientados a conversión.
+* Integración directa con WhatsApp.
+* Sección de servicios para pequeños negocios.
+* Paquetes de desarrollo web con precios referenciales.
+* Demo visual de catálogo digital.
+* Sección de proceso de trabajo.
+* Favicon y título personalizados.
+* Despliegue en Vercel.
+
+## Tecnologías utilizadas
+
+* React
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* Lucide React
+* Framer Motion
+* Vercel
+
+## Servicios presentados
+
+La landing promociona servicios como:
+
+* Landing pages para negocios.
+* Catálogos web con pedido por WhatsApp.
+* Tiendas pequeñas personalizadas.
+* Migración desde Shopify o WordPress.
+* Mejora de webs existentes.
+* Mantenimiento y soporte mensual.
+
+## Estructura del proyecto
+
+```bash
+elevaDev/
+├── public/
+│   ├── demo/
+│   │   ├── polos.jpg
+│   │   ├── casacas.jpg
+│   │   ├── accesorios.jpg
+│   │   └── ofertas.jpg
+│   └── favicon.png
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Instalación y uso local
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/jcarrascop13/elevaDev.git
+```
+
+Entrar al proyecto:
+
+```bash
+cd elevaDev
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Abrir en el navegador:
+
+```bash
+http://localhost:5173/
+```
+
+## Crear versión de producción
+
+Para generar la versión optimizada del proyecto:
+
+```bash
+npm run build
+```
+
+Para previsualizar la versión de producción localmente:
+
+```bash
+npm run preview
+```
+
+## Despliegue
+
+El proyecto está preparado para desplegarse en Vercel.
+
+Configuración recomendada:
+
+```txt
+Framework Preset: Vite
+Build Command: npm run build
+Output Directory: dist
+Install Command: npm install
+```
+
+## Contacto
+
+**elevaDev**
+Desarrollo web para pequeños negocios.
+
+Correo: [jcarrascop13@gmail.com](mailto:jcarrascop13@gmail.com)
+WhatsApp: 935 452 663
+
+## Estado del proyecto
+
+Proyecto en desarrollo y mejora continua.
+Se seguirán agregando ajustes visuales, optimización de contenido, mejoras de conversión y posibles demos adicionales para distintos tipos de negocios.
+
+## Autor
+
+Desarrollado por **Jhonatan Carrasco**.
