@@ -131,6 +131,10 @@ a[href] {
     @apply bg-background text-foreground;
     }
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
+    }
+  ::selection {
+    background-color: rgb(167 139 250 / 0.35);
+    color: #fff;
     }
 }
