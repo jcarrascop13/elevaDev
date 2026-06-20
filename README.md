@@ -19,6 +19,7 @@ La landing incluye secciones estratégicas como servicios, beneficios, paquetes,
 * Integración directa con WhatsApp.
 * Sección de servicios para pequeños negocios.
 * Paquetes de desarrollo web con precios referenciales.
+* Sección de proyectos reales entregados a clientes.
 * Demo visual de catálogo digital.
 * Sección de proceso de trabajo.
 * Favicon y título personalizados.
@@ -55,11 +56,18 @@ elevaDev/
 │   │   ├── casacas.jpg
 │   │   ├── accesorios.jpg
 │   │   └── ofertas.jpg
-│   └── favicon.png
+│   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── ui/
-│   ├── App.jsx
+│   │   ├── layout/        # Navbar y Footer
+│   │   ├── sections/       # Una sección de la landing por archivo
+│   │   └── ui/             # Componentes base (Button, Card) + helpers de UI
+│   ├── data/
+│   │   └── site.js         # Todo el contenido y textos del sitio en un solo lugar
+│   ├── lib/
+│   │   ├── utils.js         # Helper cn() para clases de Tailwind
+│   │   └── whatsapp.js       # Helpers de WhatsApp, email y scroll
+│   ├── App.jsx              # Compone las secciones de la landing
 │   ├── index.css
 │   └── main.jsx
 ├── index.html
@@ -67,6 +75,8 @@ elevaDev/
 ├── vite.config.js
 └── README.md
 ```
+
+Para editar cualquier texto, precio o dato de contacto, basta con modificar `src/data/site.js`. Para agregar un nuevo proyecto real a la sección "Proyectos", se añade un objeto al arreglo `projects` en ese mismo archivo.
 
 ## Instalación y uso local
 
